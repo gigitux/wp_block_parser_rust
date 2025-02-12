@@ -40,7 +40,7 @@ jobs:
           # Where to store the output of the benchmarks
           benchmark-output: "benchmarks.json"
           # benchmark html file to view the benchmarks
-          benchmark-html: "benchmarks.html"
+          benchmark-html: "index.html"
           # Branch to use as the main or master for comparision
           master-branch: "main"
           # configuration token
