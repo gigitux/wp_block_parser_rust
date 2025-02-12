@@ -1,0 +1,32 @@
+[
+  {
+    "hash": "1af4d16fa923f509b0c83f084fde98cc16e0f7e3",
+    "createdAt": "2025-02-12T21:32:28.976Z",
+    "results": [
+      {
+        "name": "php",
+        "count": 57,
+        "command": "php ./benchmark/php/script.php",
+        "mean": 0.04887882966991227,
+        "stddev": 0.0014310847878549525,
+        "median": 0.048912163705000004,
+        "user": 0.022534593333333332,
+        "system": 0.02561358692982456,
+        "min": 0.046591329705000004,
+        "max": 0.055474407705000006
+      },
+      {
+        "name": "rust",
+        "count": 2035,
+        "command": "./benchmark/rust/target/release/block-parser-rust-benchmark",
+        "mean": 0.0007274155380712526,
+        "stddev": 0.00026236431303236805,
+        "median": 0.000698229885,
+        "user": 0.0004086159705159712,
+        "system": 0.000409553759213759,
+        "min": 0.000651803885,
+        "max": 0.005853440885
+      }
+    ]
+  }
+]
