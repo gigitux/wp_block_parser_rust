@@ -1,0 +1,11 @@
+[package]
+name = "block-parser-rust-benchmark"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+block-parser-rust = { path = "../../" }
+
+[[bin]]
+name = "block-parser-rust-benchmark"
+path = "main.rs"
