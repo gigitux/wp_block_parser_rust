@@ -1,0 +1,7 @@
+[
+  { "name": "php", "command": "php ./php/script.php" },
+  {
+    "name": "rust",
+    "command": "./rust/target/release/block-parser-rust-benchmark"
+  }
+]
