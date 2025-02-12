@@ -1,4 +1,6 @@
 name: Run Benchmarks
+permissions:
+  contents: write
 
 on:
   push:
