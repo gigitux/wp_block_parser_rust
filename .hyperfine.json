@@ -1,7 +1,7 @@
 [
-  { "name": "php", "command": "php ./php/script.php" },
+  { "name": "php", "command": "php ./benchmark/php/script.php" },
   {
     "name": "rust",
-    "command": "./rust/target/release/block-parser-rust-benchmark"
+    "command": "./benchmark/rust/target/release/block-parser-rust-benchmark"
   }
 ]
