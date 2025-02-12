@@ -1,4 +1,4 @@
-name: Rust
+name: Run Benchmarks
 
 on:
   push:
@@ -24,8 +24,10 @@ jobs:
       - name: Build Rust Benchmark
         run: cargo build --release && cd benchmark/rust && cargo build --release
 
-      - name: Run benchmarks
-        run: ./benchmark/run_benchmark.sh
+      - name: Install hyperfine
+        run: |
+          wget https://github.com/sharkdp/hyperfine/releases/download/v1.19.0/hyperfine_1.19.0_amd64.deb
+          sudo dpkg -i hyperfine_1.19.0_amd64.deb
 
       - uses: blacha/hyperfine-action@v1
         with:
